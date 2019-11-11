@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory
+        android:title="@string/pref_general_settings_title"
+        android:key="general_settings">
+        <CheckBoxPreference
+            android:key="@string/pref_key_retrieve_video_duration_time"
+            android:title="@string/pref_retrieve_video_duration_time"
+            android:summary="@string/pref_retrieve_video_duration_time_info"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
